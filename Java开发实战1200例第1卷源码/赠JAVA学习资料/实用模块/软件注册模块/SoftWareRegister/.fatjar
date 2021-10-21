@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Sat Aug 09 15:20:36 CST 2008
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=\u8F6F\u4EF6\u6CE8\u518C\u6A21\u5757_fat.jar
+manifest.mergeall=true
+manifest.mainclass=com.wsy.mainFrame
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

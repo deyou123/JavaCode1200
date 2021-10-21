@@ -1,0 +1,128 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+# java.lang.OutOfMemoryError: requested 32756 bytes for ChunkPool::allocate. Out of swap space?
+#
+#  Internal Error (allocation.cpp:120), pid=16996, tid=17044
+#  Error: ChunkPool::allocate
+#
+# Java VM: Java HotSpot(TM) Client VM (11.0-b12 mixed mode, sharing windows-x86)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x02ad9400):  JavaThread "CompilerThread0" daemon [_thread_in_native, id=17044, stack(0x02d00000,0x02d50000)]
+
+Stack: [0x02d00000,0x02d50000]
+[error occurred during error reporting (printing stack bounds), id 0x80000001]
+
+
+Current CompileTask:
+C1: 51  !   org.eclipse.jem.internal.proxy.vm.remote.ConnectionHandler.run()Ljava/lang/Object; (2476 bytes)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x03049800 JavaThread "Connection Thread" [_thread_in_native, id=17096, stack(0x03480000,0x034d0000)]
+  0x03064800 JavaThread "AWT-Windows" daemon [_thread_in_native, id=17092, stack(0x03430000,0x03480000)]
+  0x03063000 JavaThread "AWT-Shutdown" [_thread_blocked, id=17084, stack(0x033e0000,0x03430000)]
+  0x03058800 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=17080, stack(0x03390000,0x033e0000)]
+  0x02b5e800 JavaThread "Connection Thread" [_thread_in_native, id=17072, stack(0x02f80000,0x02fd0000)]
+  0x02afc000 JavaThread "Timeout Termination Thread" [_thread_blocked, id=17060, stack(0x02e40000,0x02e90000)]
+  0x02aefc00 JavaThread "Server Thread-Project (Filebatch)-VM for Filebatch" [_thread_in_native, id=17056, stack(0x02df0000,0x02e40000)]
+  0x02adc400 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=17048, stack(0x02d50000,0x02da0000)]
+=>0x02ad9400 JavaThread "CompilerThread0" daemon [_thread_in_native, id=17044, stack(0x02d00000,0x02d50000)]
+  0x02ad7c00 JavaThread "Attach Listener" daemon [_thread_blocked, id=17040, stack(0x02cb0000,0x02d00000)]
+  0x02ad6c00 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=17036, stack(0x02c60000,0x02cb0000)]
+  0x02a94400 JavaThread "Finalizer" daemon [_thread_blocked, id=17032, stack(0x02c10000,0x02c60000)]
+  0x02a8f800 JavaThread "Reference Handler" daemon [_thread_blocked, id=17028, stack(0x02bc0000,0x02c10000)]
+  0x003e7400 JavaThread "main" [_thread_blocked, id=17020, stack(0x008c0000,0x00910000)]
+
+Other Threads:
+  0x02a8e000 VMThread [stack: 0x02b70000,0x02bc0000] [id=17024]
+  0x02addc00 WatcherThread [stack: 0x02da0000,0x02df0000] [id=17052]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ def new generation   total 960K, used 626K [0x229b0000, 0x22ab0000, 0x22e90000)
+  eden space 896K,  62% used [0x229b0000, 0x22a3ca08, 0x22a90000)
+  from space 64K, 100% used [0x22aa0000, 0x22ab0000, 0x22ab0000)
+  to   space 64K,   0% used [0x22a90000, 0x22a90000, 0x22aa0000)
+ tenured generation   total 4096K, used 185K [0x22e90000, 0x23290000, 0x269b0000)
+   the space 4096K,   4% used [0x22e90000, 0x22ebe440, 0x22ebe600, 0x23290000)
+ compacting perm gen  total 12288K, used 700K [0x269b0000, 0x275b0000, 0x2a9b0000)
+   the space 12288K,   5% used [0x269b0000, 0x26a5f340, 0x26a5f400, 0x275b0000)
+    ro space 8192K,  66% used [0x2a9b0000, 0x2af0a540, 0x2af0a600, 0x2b1b0000)
+    rw space 12288K,  53% used [0x2b1b0000, 0x2b8123f8, 0x2b812400, 0x2bdb0000)
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	C:\Program Files\Java\jdk1.6.0_10\bin\javaw.exe
+0x77f30000 - 0x77ffa000 	C:\WINDOWS\system32\ntdll.dll
+0x77e10000 - 0x77f2d000 	C:\WINDOWS\system32\kernel32.dll
+0x77d60000 - 0x77e00000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77c20000 - 0x77cc4000 	C:\WINDOWS\system32\RPCRT4.dll
+0x77cd0000 - 0x77d5e000 	C:\WINDOWS\system32\USER32.dll
+0x77bd0000 - 0x77c14000 	C:\WINDOWS\system32\GDI32.dll
+0x76180000 - 0x7619d000 	C:\WINDOWS\system32\IMM32.DLL
+0x63090000 - 0x63099000 	C:\WINDOWS\system32\LPK.DLL
+0x72ee0000 - 0x72f3e000 	C:\WINDOWS\system32\USP10.dll
+0x7c340000 - 0x7c396000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\msvcr71.dll
+0x6d8b0000 - 0x6db06000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\client\jvm.dll
+0x769e0000 - 0x76a09000 	C:\WINDOWS\system32\WINMM.dll
+0x6d330000 - 0x6d338000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\hpi.dll
+0x76ab0000 - 0x76abb000 	C:\WINDOWS\system32\PSAPI.DLL
+0x6d860000 - 0x6d86c000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\verify.dll
+0x6d3d0000 - 0x6d3ef000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\java.dll
+0x6d8a0000 - 0x6d8af000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\zip.dll
+0x6d6c0000 - 0x6d6d3000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\net.dll
+0x71b60000 - 0x71b78000 	C:\WINDOWS\system32\WS2_32.dll
+0x77b70000 - 0x77bc4000 	C:\WINDOWS\system32\msvcrt.dll
+0x71b50000 - 0x71b58000 	C:\WINDOWS\system32\WS2HELP.dll
+0x71a80000 - 0x71ac2000 	C:\WINDOWS\System32\mswsock.dll
+0x76e30000 - 0x76e58000 	C:\WINDOWS\system32\DNSAPI.dll
+0x76ed0000 - 0x76ed7000 	C:\WINDOWS\System32\winrnr.dll
+0x76e70000 - 0x76e9f000 	C:\WINDOWS\system32\WLDAP32.dll
+0x76ee0000 - 0x76ee5000 	C:\WINDOWS\system32\rasadhlp.dll
+0x71a40000 - 0x71a48000 	C:\WINDOWS\System32\wshtcpip.dll
+0x6d0b0000 - 0x6d1e6000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\awt.dll
+0x72f40000 - 0x72f66000 	C:\WINDOWS\system32\WINSPOOL.DRV
+0x77150000 - 0x77274000 	C:\WINDOWS\system32\ole32.dll
+0x71ad0000 - 0x71b02000 	C:\WINDOWS\system32\uxtheme.dll
+0x74430000 - 0x7447b000 	C:\WINDOWS\system32\MSCTF.dll
+0x75d60000 - 0x75d82000 	C:\WINDOWS\system32\apphelp.dll
+0x03520000 - 0x0354b000 	C:\WINDOWS\system32\msctfime.ime
+
+VM Arguments:
+jvm_args: -Dproxyvm.registryKey=32487807 -Dproxyvm.masterPort=1234 -Dproxyvm.bufsize=16000 -Dproxyvm.servername=Project (Filebatch)-VM for Filebatch -Xverify:none 
+java_command: org.eclipse.jem.internal.proxy.vm.remote.RemoteVMApplication
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Program Files\Java\jdk1.6.0_10\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\StormII\Codec;C:\Program Files\StormII
+USERNAME=Administrator
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 15 Stepping 13, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows Server 2003 family Build 3790 
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 15 stepping 13, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 2087344k(293008k free), swap 4194303k(5120k free)
+
+vm_info: Java HotSpot(TM) Client VM (11.0-b12) for windows-x86 JRE (1.6.0_10-beta-b25), built on May 29 2008 00:51:46 by "java_re" with MS VC++ 7.1
+
+time: Mon Jul 28 11:30:48 2008
+elapsed time: 0 seconds
+

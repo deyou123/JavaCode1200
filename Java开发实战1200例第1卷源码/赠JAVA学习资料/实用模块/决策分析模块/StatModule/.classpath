@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/itext"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JFreeChart">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="H:/范例手册/关盘/mr/jfreechart-1.0.11/jfreechart-1.0.11/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaDB_Driver"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JExcel"/>
+	<classpathentry kind="lib" path="H:/范例手册/关盘/mr/jfreechart-1.0.11/jfreechart-1.0.11/lib/iText-2.1.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

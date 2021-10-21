@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books SYSTEM "attlist_idref_demo.dtd">
+<books>
+	<book UID="AAAA">
+		<name>《C#从入门到精通(第2版)》</name>
+		<publisher>清华大学出版社</publisher>
+		<company>明日科技</company>
+		<author>王小科</author>
+		<ISBN>9787302226628</ISBN>
+		<price >69.80</price>
+		<url><![CDATA[http://www.mingribook.com/bookinfo.php?id=227&sid=4]]></url>
+	</book>
+	<book UID="AAAB">
+		<name>《JavaScript开发技术大全》</name>
+		<publisher>人民邮电出版社</publisher>
+		<company>明日科技</company>
+		<author>梁冰</author>
+		<ISBN>9787115179708</ISBN>
+		<price>65.00</price>
+		<url><![CDATA[http://www.mingribook.com/bookinfo.php?id=138&sid=5]]></url>
+	</book>
+	<book UID="AAAC">
+		<name>《Java从入门到精通（第2版）》</name>
+		<publisher>清华大学出版社</publisher>
+		<company>明日科技</company>
+		<author>李钟蔚</author>
+		<ISBN>9787302227465</ISBN>
+		<price>59.80</price>
+		<url><![CDATA[http://www.mingribook.com/bookinfo.php?id=222]]></url>
+		<relevance relUID="AAAA">《C#从入门到精通(第2版)》</relevance>
+	</book>
+</books>

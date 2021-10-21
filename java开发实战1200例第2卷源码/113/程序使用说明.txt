@@ -1,0 +1,3 @@
+本程序使用到了iText-2.1.3.jar、itextasian-1.5.2.jar、iText-toolbox-2.1.7.jar、jtds-1.2.2.jar包，由于不是本公司自主开发的，所以使用本程序时，需要到官方网站自行下载。
+
+

@@ -1,0 +1,21 @@
+#Thu Dec 04 14:49:32 CST 2008
+eclipse.preferences.version=1
+encoding//src/com/cdd/editItem/CopyFolder.java=UTF-8
+encoding//src/com/cdd/editItem/DeleteBatch.java=UTF-8
+encoding//src/com/cdd/editItem/FileNameCopyBatch.java=UTF-8
+encoding//src/com/cdd/editItem/FileNameremoveBatch.java=UTF-8
+encoding//src/com/cdd/editItem/MyCoding.java=UTF-8
+encoding//src/com/cdd/editItem/MyHint.java=UTF-8
+encoding//src/com/cdd/editItem/MyRemoveMessage.java=UTF-8
+encoding//src/com/cdd/editItem/RemoveFolder.java=UTF-8
+encoding//src/com/cdd/editItem/RenameBatch.java=UTF-8
+encoding//src/com/cdd/fileItem/CreateFile.java=UTF-8
+encoding//src/com/cdd/fileItem/CreateFolderFrame.java=UTF-8
+encoding//src/com/cdd/fileItem/SearchFrame.java=UTF-8
+encoding//src/com/cdd/tool/MyMessage.java=UTF-8
+encoding//src/com/cdd/tool/MyOutZipMessage.java=UTF-8
+encoding//src/com/cdd/tool/MyZipMessage.java=UTF-8
+encoding//src/com/cdd/tool/ZipFrame.java=UTF-8
+encoding//src/com/cdd/tool/ZipOutFrame.java=UTF-8
+encoding//src/com/cdd/uitl/FileHeald.java=GBK
+encoding//src/com/cdd/uitl/SortFrame.java=UTF-8

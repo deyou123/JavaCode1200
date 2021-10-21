@@ -1,0 +1,3 @@
+本程序使用到了bcmail-jdk14-138.jar、bcprov-jdk14-138.jar、bctsp-jdk14-138.jar、dom4j-1.6.1.jar、iText-5.0.5.jar、itextasian-1.5.2.jar、pdf-renderer.jar包，由于不是本公司自主开发的，所以使用本程序时，需要到官方网站自行下载。
+
+

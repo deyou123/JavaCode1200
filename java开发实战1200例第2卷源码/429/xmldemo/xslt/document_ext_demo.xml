@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book>
+		<name>《视频学C语言》</name>
+		<publisher>人民邮电出版社</publisher>
+		<company>明日科技</company>
+		<author>李伟明</author>
+		<ISBN>9787115220660</ISBN>
+		<price unit="RBM" >49.80</price>
+		<url><![CDATA[http://www.mingribook.com/bookinfo-207.html]]></url>
+	</book>
+	<book>
+		<name>《视频学ASP.NET(1DVD)》</name>
+		<publisher>人民邮电出版社</publisher>
+		<author>房大伟</author>
+		<company>明日科技</company>
+		<ISBN>9787115218698</ISBN>
+		<price unit="RBM" >49.80</price>
+		<url><![CDATA[http://www.mingribook.com/bookinfo-210.html]]></url>
+	</book>
+	<book>
+		<name>《PHP从入门到精通（第2版）》</name>
+		<publisher>清华大学出版社</publisher>
+		<author>潘凯华</author>
+		<company>明日科技</company>
+		<ISBN>9787302227472</ISBN>
+		<price unit="RBM" >69.80</price>
+		<url><![CDATA[http://www.mingribook.com/bookinfo-223.html]]></url>
+	</book>
+	
+</books>

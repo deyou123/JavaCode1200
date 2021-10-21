@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book>
+		<name>JAVA范例完全自学手册</name>
+		<publisher>人民邮电出版社</publisher>
+		<author>李钟尉</author>
+		<ISBN>9787115201027</ISBN>
+		<price>59.80</price>
+</books>
